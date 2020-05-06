@@ -1,14 +1,33 @@
-_site/*
-_theme_packages/*
 
-Thumbs.db
+*~
+*.sw[p_]
+./docs
+
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
+
+# Node.js and NPM
+node_modules
+npm-debug.log*
+package-lock.json
+codekit-config.json
+
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+vendor/bundle
+
+# intellJ
+*.iml
+
+# macOS
 .DS_Store
 
-!.gitkeep
-
-.rbenv-version
-.rvmrc
-/vendor
-
-.idea/*
-*.iml
+# Sublime Text
+*.sublime-project
+*.sublime-workspace

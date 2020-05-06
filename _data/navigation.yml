@@ -1,0 +1,38 @@
+# main links
+main:
+  - title: "TIL"
+    url: /til/home/
+  - title: "프로젝트"
+    url: /projects/home/
+  - title: "포스트"
+    url: /year-archive/
+  - title: "카테고리"
+    url: /categories/
+
+# til documentation links
+til:
+  - title: Today I Learned
+    children:
+      - title: "Home"
+        url: /til/home/
+  - title: JAVA
+    children:
+      - title: "GC"
+        url: /til/home/#/
+  - title: JAVA SCRIPT
+    children:
+      - title: 기본 개념
+        url: /til/home/#/
+      - title: scope
+        url: /til/home/#/
+      - title: hoisting
+        url: /til/home/#/
+      - title: var, let, const
+        url: /til/home/#/
+
+# project documentation links
+projects:
+  - title: Dashboard
+    children:
+      - title: "Home"
+        url: /projects/home/
