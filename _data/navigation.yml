@@ -14,21 +14,21 @@ til:
   - title: Today I Learned
     children:
       - title: "Home"
-        url: /til/home/
+        url: /til/home
   - title: JAVA
     children:
       - title: "GC"
         url: /til/home/#/
-  - title: JAVA SCRIPT
+      - title: "Reactive Streams"
+        url: /til/java/reactive-streams
+  - title: SPARK
     children:
-      - title: 기본 개념
-        url: /til/home/#/
-      - title: scope
-        url: /til/home/#/
-      - title: hoisting
-        url: /til/home/#/
-      - title: var, let, const
-        url: /til/home/#/
+      - title: Spark Dynamic Allocation 적용
+        url: /til/spark/dynamic-allocation-in-spark
+  - title: Music
+    children:
+      - title: 440Hz의 비밀
+        url: /til/music/the-secret-of-440
 
 # project documentation links
 projects:
