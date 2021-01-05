@@ -4,10 +4,12 @@ permalink: /challenges/30daysofcode/day0-hello-word
 last_modified_at: 2021-01-06T01:01:03+09:00
 redirect_from:
   - /theme-setup/
-toc: true
-toc_sticky: true
 ---
 
+
+## Difficulty
+
+Easy
 
 ## Problem
 

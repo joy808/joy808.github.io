@@ -40,9 +40,17 @@ challenges:
         url: /challenges/home/
   - title: 30 Days of Code
     children:
+      - title: Day0. Hello, World
+        url: /challenges/30daysofcode/day0-hello-word
+      - title: Day1. 
+        url: /challenges/home/#
   - title: 30 Days of JavaScript
     children:
-  - title: PS (Problem Solving)
+  - title: Problem Solving (Algorithms)
+    children:
+      - title: Compare the Triplets
+        url: /challenges/ps-algorithms/compare-the-triplets
+  - title: Problem Solving (Data Structures)
     children:
 
 # project documentation links
