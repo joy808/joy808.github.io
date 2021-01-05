@@ -1,7 +1,7 @@
 ---
 title: "Compare the Triplets"
 permalink: /challenges/ps-algorithms/compare-the-triplets
-last_modified_at: 2021-01-06T01:27:25+09:00
+last_modified_at: 2021-01-06T01:50:25+09:00
 redirect_from:
   - /theme-setup/
 ---
@@ -99,7 +99,6 @@ The second line contains 3 space-separated integers, b[0], b[1], and b[2], the r
 ```
 2 1
 ```
-
 
 ## Solution (Java8)
 
