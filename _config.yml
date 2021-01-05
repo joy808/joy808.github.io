@@ -219,10 +219,10 @@ defaults:
       type: pages
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: false
       share: false
-      comments: false
+      comments: true
       sidebar:
         nav: "til"
   # _docs/_challenges
@@ -231,10 +231,10 @@ defaults:
       type: pages
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: false
-      share: false
-      comments: false
+      share: true
+      comments: true
       sidebar:
         nav: "challenges"
   # _docs/projects

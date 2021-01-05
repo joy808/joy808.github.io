@@ -1,7 +1,7 @@
 ---
 title: "TIL"
 permalink: /til/home/
-last_modified_at: 2021-01-06T12:52:29+09:00
+last_modified_at: 2021-01-06T00:52:29+09:00
 redirect_from:
   - /theme-setup/
 ---
