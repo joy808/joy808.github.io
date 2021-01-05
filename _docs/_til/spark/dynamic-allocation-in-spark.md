@@ -11,7 +11,7 @@ versions
 
 spark 에서는 resource dynamic allocation을 공식적으로 지원한다.     
 
-D.A를 위해서 아래의 4가지 옵션이 제공된다.
+Dynamic Allocation을 위해서 아래의 4가지 옵션이 제공된다.
 ```
 spark.shuffle.service.enabled
 spark.dynamicAllocation.enabled
@@ -36,9 +36,9 @@ spark.dynamicAllocation.maxExecutors
 3. yarn 재시작
 ```
 
-하지만 spark streaming job을 사용하는 경우 위의 설정과 함께 D.A로 잡을 실행하면 fail이 떨어진다.    
+하지만 spark streaming job을 사용하는 경우 위의 설정과 함께 Dynamic Allocation을 사용해서 잡을 실행하면 fail이 떨어진다.    
 열심히 구글링하여 streaming의 경우 별도의 옵션값이 존재한다는 것을 알수있었다...     
-(심지어 CDH 도큐먼트에서는 streaming의 경우 D.A 지원안한다는 말을 하고있다..ㅠㅠ)
+(심지어 CDH 도큐먼트에서는 streaming의 경우 Dynamic Allocation을 지원하지 않는다고 명시하고 있다..ㅠㅠ)
 ```
 spark.shuffle.service.enabled
 spark.streaming.dynamicAllocation.enabled
@@ -49,4 +49,4 @@ spark.streaming.dynamicAllocation.maxExecutors
 ### !) 참고사항
 1. spark streaming job의 경우 `spark.streaming.dynamicAllocation.enabled=true` 일 때 `--num-executors(=spark.executor.instances)` 옵션은 무시된다.
 2. core 개수는 최초 잡을 올릴때 설정한 core가 그대로 유지된다.      
-리서치 부족일 수도 있겠지만.. 현재까지 알아낸 바로는 core의 D.A는 안되는 듯 하다...
+리서치 부족일 수도 있겠지만.. 현재까지 알아낸 바로는 core의 Dynamic Allocation은 안되는 듯 하다...

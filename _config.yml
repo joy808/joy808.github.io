@@ -97,9 +97,9 @@ author:
   bio              : *description
   location         : "Seoul, South Korea"
   links:
-    - label: "joy"
-      icon: "fas fa-fw fa-link"
-      url: "https://joy808.github.io"
+    # - label: "joy"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://joy808.github.io"
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: "https://twitter.com/mmistakes"
@@ -131,6 +131,7 @@ include:
   - _docs
   - _projects
   - _til
+  - _challenges
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -224,6 +225,18 @@ defaults:
       comments: false
       sidebar:
         nav: "til"
+  # _docs/_challenges
+  - scope:
+      path: "_docs/_challenges"
+      type: pages
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "challenges"
   # _docs/projects
   - scope:
       path: "_docs/_projects"

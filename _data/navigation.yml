@@ -2,8 +2,10 @@
 main:
   - title: "TIL"
     url: /til/home/
-  - title: "프로젝트"
-    url: /projects/home/
+  - title: "Challenges"
+    url: /challenges/home/
+  # - title: "프로젝트"
+  #   url: /projects/home/
   - title: "포스트"
     url: /year-archive/
   - title: "카테고리"
@@ -29,6 +31,19 @@ til:
     children:
       - title: 440Hz의 비밀
         url: /til/music/the-secret-of-440
+
+# challenges documentation links
+challenges:
+  - title: Challenges
+    children:
+      - title: Home
+        url: /challenges/home/
+  - title: 30 Days of Code
+    children:
+  - title: 30 Days of JavaScript
+    children:
+  - title: PS (Problem Solving)
+    children:
 
 # project documentation links
 projects:

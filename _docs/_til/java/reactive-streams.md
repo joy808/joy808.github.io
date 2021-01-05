@@ -7,22 +7,21 @@ redirect_from:
 toc: true
 toc_sticky: true
 ---
+
 Reactive Streams의 핵심 인터페이스가 Java9의 `java.util.concurrent.Flow` 클래스에 새롭게 추가되었습니다.
 
 ## Reactive Programming 이란?
 
 >[Reactive programming](https://en.wikipedia.org/wiki/Reactive_programming) 이란 비동기 데이터 흐름(data flow)에 기반을 둔 프로그래밍 패러다임이다.    
->데이터 흐름이 강과 같아서 이를 관찰하거나 필터링하는 등 다양하게 다룰 수 있으며 새로운 사용자를 위한 새로운 flow를 만들기 위해 다른 flow와 병합할 수 도 있다. (in RxJava Essentials)
+>데이터 흐름이 강과 같아서 이를 관찰하거나 필터링하는 등 다양하게 다룰 수 있으며 새로운 사용자를 위한 새로운 flow를 만들기 위해 다른 flow와 병합할 수 도 있다.     
+>(in RxJava Essentials)
 
-```
-"Reactive Programming is programming with asynchronous data streams."
-```
+`"Reactive Programming is programming with asynchronous data streams."`
 
 반응형 프로그래밍은 비동기적 데이터 흐름을 처리하는 프로그래밍 방식입니다.   
 이러한 관점에서 Reactive Programming은 Asynchronous Dataflow Programming 이라고도 불립니다.
 
 Reactive Programming의 핵심은 모든것을 비동기적인 데이터 stream으로 간주하고 Observer 디자인 패턴을 사용해서, 이러한 비동기 이벤트를 처리하는 것에 있습니다.     
-[참고](https://blog.naver.com/jdub7138/220983291803)
 
 Data Stream은 이름 그대로 데이터의 큰 흐름, 데이터 물줄기의 흐름입니다.     
 Async한 Data Stream은 아래 그림처럼 표현할 수 있습니다.     
