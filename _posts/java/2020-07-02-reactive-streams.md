@@ -1,11 +1,14 @@
 ---
 title: "Reactive Streams"
-permalink: /til/java/reactive-streams
-last_modified_at: 2020-07-02T11:24:39+09:00
-redirect_from:
-  - /theme-setup/
+categories:
+  - Java
+tags:
+  - java
 toc: true
 toc_sticky: true
+redirect_from:
+  - /theme-setup/
+last_modified_at: 2020-07-02T11:24:39+09:00
 ---
 
 Reactive Streams의 핵심 인터페이스가 Java9의 `java.util.concurrent.Flow` 클래스에 새롭게 추가되었습니다.
@@ -28,7 +31,7 @@ Async한 Data Stream은 아래 그림처럼 표현할 수 있습니다.
 
 참고로 여기에서 Data stream이 값을 생성한 뒤 토해내는 것을 `Emit(분출)`이라고도 합니다.
 
-![data-stream](./images/reactive-streams/datastream.png)
+![data-stream](./2020-07-02-reactive-streams/datastream.png)
 
 Reactive Programing은 기본적으로 모든 것을 스트림`(stream)`으로 바라보며, 발생하는 이벤트, ajax call등 모든 데이터의 흐름을 시간순서에 의해 전달되어지는 스트림으로 처리합니다.   
 
@@ -37,7 +40,7 @@ Reactive Programing은 기본적으로 모든 것을 스트림`(stream)`으로 �
 
 스트림은 map, filter과 같은 함수형 메소드를 이용하여, immutable하게 처리할 수 있으며, 스트림을 listening 함으로써 데이터의 결과값을 얻을 수 도 있습니다. 이를 `subscribe`라고 표현합니다.
 
-![rxjs_stream](./images/reactive-streams/rxjs_stream.png)
+![rxjs_stream](./2020-07-02-reactive-streams/rxjs_stream.png)
 
 
 ## Reactive Streams
@@ -56,11 +59,11 @@ Java world에서는 [RxJava](https://github.com/ReactiveX/RxJava)나 [Reactor](h
 결과 값을 return 받는 시점에 초점을 두면 쉽게 이해할 수 있습니다.
 
 #### Synchronous
-![synchronous](./images/reactive-streams/sync.jpg)
+![synchronous](./2020-07-02-reactive-streams/sync.jpg)
 * system call이 끝날 때 까지 기다렸다가 return된 결과값을 가져옴.
 
 #### Asynchronous
-![asynchronous](./images/reactive-streams/async.jpg)
+![asynchronous](./2020-07-02-reactive-streams/async.jpg)
 * system call이 완료되지 않아도 process flow가 끝남
 * 추후 system call 작업이 완료되고 결과가 나왔을때 결과값을 가져옴
 * 주로 callback function을 많이 사용
@@ -69,14 +72,14 @@ Java world에서는 [RxJava](https://github.com/ReactiveX/RxJava)나 [Reactor](h
 application의 실행 flow에 초점을 두면 쉽게 이해할 수 있습니다.
 
 #### Blocking
-![blocking](./images/reactive-streams/blocking1.jpg)
+![blocking](./2020-07-02-reactive-streams/blocking1.jpg)
 * application은 system call이 끝날 때 까지 대기
 * system call이 완료되었을 경우 return작업을 진행
 * wait queue에 들어감
 * 예: C의 scanf()
 
 #### Non-Blocking
-![non-blocking](./images/reactive-streams/non-blocking1.jpg)
+![non-blocking](./2020-07-02-reactive-streams/non-blocking1.jpg)
 * application은 system call이 완료되지 않아도 대기 없이 return
 * wait queue에 들어가지 않음
 

@@ -21,7 +21,8 @@ last_modified_at: 2021-01-05T22:23:41+09:00
 ├── 2019.12.01 Good Bye, Kakao 👈 (2y 8m) 
 ├── 2019.12.01 👉 Hi, Kakao Enterprise
 │
-├── 2021. to be continued.
+├── 2022.01.20 Good Bye, Kakao Enterprise 👈 (2y 1m) 
+├── 2022. to be continued.
 │
 🪐
 ```

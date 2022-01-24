@@ -21,16 +21,10 @@ til:
     children:
       - title: "GC"
         url: /til/home/#/
-      - title: "Reactive Streams"
-        url: /til/java/reactive-streams
-  - title: SPARK
+  - title: Python
     children:
-      - title: Spark Dynamic Allocation 적용
-        url: /til/spark/dynamic-allocation-in-spark
-  - title: Music
-    children:
-      - title: 440Hz의 비밀
-        url: /til/music/the-secret-of-440
+      - title: "Data Types"
+        url: /til/home/#/
 
 # challenges documentation links
 challenges:

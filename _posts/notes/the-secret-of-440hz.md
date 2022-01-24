@@ -1,11 +1,12 @@
 ---
 title: "440Hz의 비밀"
-permalink: /til/music/the-secret-of-440
-last_modified_at: 2018-10-17T11:24:39+09:00
+categories:
+  - Note
 redirect_from:
   - /theme-setup/
 toc: true
 toc_sticky: true
+last_modified_at: 2018-10-17T11:24:39+09:00
 ---
 최근 `넷플릭스: 세계를 해설하다` 라는 다큐를 본 적이 있다.     
 내가 본 회차는 음악을 주제로 해설하고 있었는데, 보다보니 올초 잠깐이나마 음악 레슨을 받았던 기억이 떠올랐다.     

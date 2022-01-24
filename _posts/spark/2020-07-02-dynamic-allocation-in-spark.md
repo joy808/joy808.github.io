@@ -1,9 +1,12 @@
 ---
 title: "Spark Dynamic Allocation 적용"
-permalink: /til/spark/dynamic-allocation-in-spark
-last_modified_at: 2020-07-02T11:24:39+09:00
+categories:
+  - Spark
+tags:
+  - spark
 redirect_from:
   - /theme-setup/
+last_modified_at: 2020-07-02T11:24:39+09:00
 ---
 versions
 - spark 2.3.1
